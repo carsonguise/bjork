@@ -1,0 +1,153 @@
+head, body, footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+    text-align: center;
+}
+
+body {
+    background-image: url(https://d40studio.ro/cdn/shop/products/DEKO.TAP.227_2_900x900.jpg?v=1668009610g);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+main {
+    padding: 0% 6%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: #878787;
+    padding: 2%;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+nav ul {
+    display: flex;
+    margin: 2%;
+    gap: 7%;
+    justify-content: center;
+    background-size: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+nav li a {
+    background-color: #D9D9D9;
+    padding: 7%;
+    text-decoration: none; 
+    color: black;
+}
+
+nav li a:hover {
+    background-color: white;
+}
+
+#box1 {
+    width: 60%;
+    padding-left: 5%;
+    margin-top: 3%;
+}
+
+#box1 h1 {
+    align-content: center;
+    text-decoration: underline;
+    margin: 2%;
+    padding-left: 7%;
+}
+
+#box2 {
+    width: 40%;
+    padding-top: 1%;
+    padding-right: 1.5%;
+}
+
+#box2 img {
+    width: 90%;
+    height: 90%;
+}
+
+main p {
+    padding-bottom: 1%;
+}
+
+footer {
+    text-align: right;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5%;
+    }
+    
+    main {
+        padding: 0% 3%;
+    }
+    
+    nav {
+        background-color: #878787;
+        padding: 1%;
+        margin: 3.5%;
+    }
+    
+    nav ul {
+        display: flex;
+        margin: 1%;
+        gap: 3.5%;
+        justify-content: center;
+        background-size: 50%;
+    }
+    
+    nav li a {
+        background-color: #D9D9D9;
+        padding: 3.5%;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    nav li a:hover {
+        background-color: white;
+    }
+    
+    #box1 {
+        width: 100%;
+        padding-left: 2.5%;
+        margin-top: 1.5%;
+    }
+    
+    #box1 h1 {
+        align-content: center;
+        text-decoration: underline;
+        margin: 1%;
+        padding-left: 3.5%;
+    }
+    
+    #box2 {
+        width: 100%;
+        padding-top: .5%;
+        padding-right: .75%;
+    }
+    
+    #box2 img {
+        width: 80%;
+        height: 45%;
+        padding-top: 2%;
+    }
+    
+    main p {
+        padding-bottom: .5%;
+    }
+    
+    footer {
+        text-align: right;
+    }
+}

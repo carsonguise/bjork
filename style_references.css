@@ -1,0 +1,162 @@
+head, body, footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    margin-top: 1.5%;
+}
+
+body {
+    background-image: url(https://d40studio.ro/cdn/shop/products/DEKO.TAP.227_2_900x900.jpg?v=1668009610g);
+}
+
+header h1 {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 3%;
+    margin: 2%;
+    font-size: 230%;
+    padding-bottom: 1.5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: #878787;
+    padding: 1%;
+    margin-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    background-size: 100%;
+    padding-right: 8%;
+}
+
+nav li a {
+    background-color: #D9D9D9;
+    padding: 10%;
+    text-decoration: none; 
+    color: black;
+    font-size: 20px !important;
+}
+
+nav li a:hover {
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+#box2 {
+    width: auto;
+    padding-left: 5%;
+    margin-right: 1%;
+}
+
+#box2 p {
+    font-size: 14px;
+}
+
+#box2 a {
+    font-size: 14px;
+}
+
+#box3 {
+   width: auto;
+   padding-right: 6%;
+   margin-left: 1%;
+}
+
+#box3 p {
+    font-size: 14px;
+}
+
+#box3 a {
+    font-size: 14px;
+}
+
+footer {
+    text-align: right;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+a:hover {
+    color:#878787;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        width: 100%;
+        margin-top: .75%;
+    }
+    
+    header h1 {
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        text-decoration: underline;
+        padding-top: 1.5%;
+        margin: 1%;
+        font-size: 115%;
+        padding-bottom: .75%;
+    }
+    
+    nav {
+        background-color: #878787;
+        padding: 1%;
+        margin: 3.5%;
+    }
+    
+    nav ul {
+        display: flex;
+        margin: 1%;
+        gap: 3.5%;
+        justify-content: center;
+        background-size: 50%;
+    }
+    
+    nav li a {
+        background-color: #D9D9D9;
+        padding: 3.5%;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    nav li a:hover {
+        background-color: white;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+    
+    #box2 {
+        width: 100%;
+        padding-left: 2.5%;
+        margin-right: .5%;
+    }
+    
+    #box3 {
+       width: 100%;
+       padding-right: 3%;
+       margin-left: .5%;
+    }
+}

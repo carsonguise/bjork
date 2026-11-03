@@ -1,0 +1,181 @@
+head, body, footer, figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+    text-align: center;
+}
+
+body {
+    background-image: url(https://d40studio.ro/cdn/shop/products/DEKO.TAP.227_2_900x900.jpg?v=1668009610g);
+}
+
+body {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: #878787;
+    padding: 2%;
+    margin-top: 4%;
+    padding-top: 3%;
+}
+
+nav ul {
+    display: flex;
+    margin: 2%;
+    gap: 7%;
+    justify-content: center;
+    background-size: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+nav li a {
+    background-color: #D9D9D9;
+    padding: 7%;
+    text-decoration: none; 
+    color: black;
+}
+
+nav li a:hover {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    gap: 5%;
+    padding-left: 6%;
+}
+
+main {
+    display: flex;
+    width: 40%;
+    padding-top: 3.5%;
+    padding-right: 6%;
+}
+
+main img {
+    width: 60%;
+    height: 60%;
+    margin-left: 5%;
+}
+
+#box1 {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+#box1 h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 2.5%;
+}
+
+#box2 {
+    padding-left: 5%;
+}
+
+#box3 {
+    width: 50%;
+    margin-left: 10%;
+}
+
+#box4 {
+    width: 50%;
+}
+
+footer {
+    text-align: right;
+    font-size: 20px;
+    position: absolute;
+    right: .3%;
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        background-color: #878787;
+        padding: 1%;
+        margin: 3.5%;
+    }
+    
+    nav ul {
+        display: flex;
+        margin: 1%;
+        gap: 3.5%;
+        justify-content: center;
+        background-size: 50%;
+    }
+    
+    nav li a {
+        background-color: #D9D9D9;
+        padding: 3.5%;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    nav li a:hover {
+        background-color: white;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        justify-content: center;
+        width: 100%;
+        gap: 2.5%;
+    }
+
+    header img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    main {     
+        flex-direction: row;
+        width: 100%;
+        padding-top: 1.5%;
+        padding-right: 3%;
+    }
+    
+    main img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    #box1 {
+        padding-top: 1%;
+        padding-right: 10%;
+    }
+    
+    #box1 h1 {
+        text-align: center;
+        text-decoration: underline;
+        padding-bottom: 1.25%;
+    }
+    
+    #box2 {
+        padding-right: 10%;
+    }
+    
+    #box3 {
+        width: 50%;
+    }
+    
+    #box4 {
+        width: 50%;
+    }
+    
+    footer {
+        text-align: right;
+        font-size: 20px;
+    }
+}

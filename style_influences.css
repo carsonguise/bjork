@@ -1,0 +1,184 @@
+head, body, footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+    text-align: center;
+}
+
+body {
+    background-image: url(https://d40studio.ro/cdn/shop/products/DEKO.TAP.227_2_900x900.jpg?v=1668009610g);
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#box1 {
+    width: 60%;
+    padding-left: 5%;
+    margin-top: 3%;
+}
+
+#box1 h1 {
+    align-content: center;
+    text-decoration: underline;
+    margin: 2%;
+    padding-left: 7%;
+}
+
+nav {
+    background-color: #878787;
+    padding: 2%;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+
+nav ul {
+    display: flex;
+    margin: 2%;
+    gap: 7%;
+    justify-content: center;
+    background-size: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+nav li a {
+    background-color: #D9D9D9;
+    padding: 7%;
+    text-decoration: none; 
+    color: black;
+}
+
+nav li a:hover {
+    background-color: white;
+}
+
+#box2 {
+    width: 40%;
+    padding-top: 2%;
+    padding-right: 1.5%;
+}
+
+#box2 iframe {
+    width: 70%;
+    height: 100%;
+}
+
+#box3 {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+
+#box3 h2 {
+    text-decoration: underline;
+}
+
+#box4 {
+   width: 40%;
+   justify-content: center;
+   margin-top: 2%;
+}
+
+#box4 img {
+    max-width: 50%;
+    max-height: 100%;
+}
+
+footer {
+    text-align: right;
+}
+
+@media screen and (max-width:700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5%;
+        padding-right: 10%;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #box1 {
+        width: 100%;
+        margin-top: 1.5%;
+    }
+    
+    #box1 h1 {
+        align-content: center;
+        text-decoration: underline;
+        margin: 1%;
+    }
+    
+    nav {
+        background-color: #878787;
+        padding: 1%;
+        margin: 3.5%;
+    }
+    
+    nav ul {
+        display: flex;
+        margin: 1%;
+        gap: 3.5%;
+        justify-content: center;
+        background-size: 50%;
+    }
+    
+    nav li a {
+        background-color: #D9D9D9;
+        padding: 3.5%;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    nav li a:hover {
+        background-color: white;
+    }
+    
+    #box2 {
+        width: 100%;
+        padding-left: 5%;
+    }
+    
+    #box2 iframe {
+        width: 90%;
+        height: 80%;
+    }
+    
+    #box3 {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-left: 2.5%;
+        padding-top: 1.25%;
+    }
+
+    #box4 {
+       width: 100%;
+       justify-content: center;
+       margin-top: 1%;
+    }
+    
+    #box4 img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 200%;
+    }
+}
