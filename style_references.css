@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background-image: url(https://d40studio.ro/cdn/shop/products/DEKO.TAP.227_2_900x900.jpg?v=1668009610g);
+    background-image: url(./background.jpeg);
 }
 
 header h1 {
@@ -159,4 +159,137 @@ a:hover {
        padding-right: 3%;
        margin-left: .5%;
     }
+}
+
+
+/* Keep navigation and media within the page at every screen size. */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+nav ul {
+    flex-wrap: wrap;
+    gap: clamp(0.4rem, 1.4vw, 1.5rem);
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    padding: 0.35em 0.55em;
+    white-space: nowrap;
+}
+
+nav li a:focus-visible {
+    outline: 3px solid #111;
+    outline-offset: 3px;
+}
+
+img {
+    height: auto;
+}
+
+iframe {
+    border: 0;
+}
+
+/* Stack the original layout on phones without horizontal scrolling. */
+@media screen and (max-width: 700px) {
+    body {
+        margin: 12px;
+        font-size: 18px;
+    }
+
+    header, main {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        gap: 20px;
+    }
+
+    #box1, #box2, #box3, #box4, aside {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #box1 h1, header h1 {
+        margin: 16px 0;
+        padding: 0;
+        font-size: 2rem;
+    }
+
+    nav {
+        width: 100%;
+        margin: 20px 0;
+        padding: 12px 8px;
+    }
+
+    nav ul {
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li a {
+        font-size: 14px !important;
+        padding: 8px;
+    }
+
+    #box2 img {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    main {
+        margin-top: 24px;
+    }
+
+    main p {
+        line-height: 1.45;
+        margin-bottom: 22px;
+    }
+
+    aside iframe, #box2 iframe {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: none;
+        aspect-ratio: 16 / 9;
+    }
+
+    #box4 img {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    footer {
+        position: static;
+        padding: 24px 0 0;
+        font-size: 14px;
+    }
+}
+
+/* Long source URLs must wrap inside their columns. */
+main > section {
+    flex: 1;
+    min-width: 0;
+}
+
+main a {
+    overflow-wrap: anywhere;
 }
